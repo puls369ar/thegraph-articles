@@ -1,3 +1,8 @@
+# Subgraph Deployment and Architecture
+
+First let's install 
+
+
 ```bash
 graph init --from-contract 0x0BBF792168cC85C6122B29363Ec71aAE84e38100 --node  http://localhost:8030 --network testnet
 ```
