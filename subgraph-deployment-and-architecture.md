@@ -10,7 +10,7 @@ Before initializing subgraph have *ABI file* of your contract stored in `contrac
 ```bash
 graph init --from-contract <TARGET_CONTRACT_ADDRESS> --node https://<TARGET_HOST_DOMAIN>:8030 --network <NETWROK_NAME>
 ```
-Usually 8030 is the port where TheGraph nodes manage indexing processes and where we should deploy subgraph. In another [article](https://github.com/puls369ar/thegraph-articles/blob/main/subgraph-deployment-and-architecture.md) of mine when creating TheGraph node for custom chain, ports together with chain name and RPC URL were set.
+Usually 8030 is the port where TheGraph nodes manage indexing processes and where we should deploy subgraph. In another [article]([https://github.com/puls369ar/thegraph-articles/blob/main/subgraph-deployment-and-architecture.md](https://github.com/puls369ar/thegraph-articles/blob/main/graph-node-creation.md)) of mine when creating TheGraph node for custom chain, ports together with chain name and RPC URL were set.
 
 You'll be asked to provide some information about the subgraph in the terminal.
 * `Protocol` - Etereum if the chain you deploy is EVM compatible
